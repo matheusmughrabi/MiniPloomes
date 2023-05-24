@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{40C1B69E-AFC2-4C84-88B7-4927FD1FB362}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ports", "ports", "{963B88DD-DD57-42A9-AB33-EC02BBC664CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{A269634B-03FD-4BBE-B1B3-88ED97F75BB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniPloomes.WebApi", "src\ports\MiniPloomes.WebApi\MiniPloomes.WebApi.csproj", "{2F23C57C-1A03-4A7F-A06A-199D1AA703E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniPloomes.Core.Usuarios", "src\core\MiniPloomes.Core.Usuarios\MiniPloomes.Core.Usuarios.csproj", "{3D0DEB90-5619-41DC-AFD4-730E1853186E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F23C57C-1A03-4A7F-A06A-199D1AA703E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F23C57C-1A03-4A7F-A06A-199D1AA703E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F23C57C-1A03-4A7F-A06A-199D1AA703E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F23C57C-1A03-4A7F-A06A-199D1AA703E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0DEB90-5619-41DC-AFD4-730E1853186E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0DEB90-5619-41DC-AFD4-730E1853186E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0DEB90-5619-41DC-AFD4-730E1853186E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0DEB90-5619-41DC-AFD4-730E1853186E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{963B88DD-DD57-42A9-AB33-EC02BBC664CA} = {40C1B69E-AFC2-4C84-88B7-4927FD1FB362}
+		{A269634B-03FD-4BBE-B1B3-88ED97F75BB9} = {40C1B69E-AFC2-4C84-88B7-4927FD1FB362}
+		{2F23C57C-1A03-4A7F-A06A-199D1AA703E9} = {963B88DD-DD57-42A9-AB33-EC02BBC664CA}
+		{3D0DEB90-5619-41DC-AFD4-730E1853186E} = {A269634B-03FD-4BBE-B1B3-88ED97F75BB9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD410683-E905-4959-B871-87C21C852C40}
+	EndGlobalSection
+EndGlobal

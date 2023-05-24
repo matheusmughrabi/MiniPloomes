@@ -1,0 +1,12 @@
+-> Endpoints
+  . Criar um usuário (empresa que contratou o software)
+  . Ver meu perfil de empresa [Auth]
+  . Ver os seus clientes [Auth]
+  . Cadastrar os seus clientes [Auth]
+  . Atualizar um cliente
+-----------------------------------------
+  . Gerar um token 
+  . Atualizar um cliente [Auth] -> Futuro 
+  . Deletar um cliente [Auth] -> Futuro
+  . Atualizar os dados do usuário (empresa) [Auth]
+  . Ver um cliente com mais detalhes [Auth]
